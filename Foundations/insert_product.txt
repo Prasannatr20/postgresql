@@ -1,0 +1,19 @@
+INSERT INTO products
+(product_name, price, stock_quantity)
+VALUES
+('Laptop', 55000.00, 25);
+
+INSERT INTO products
+(product_name, price, stock_quantity)
+VALUES
+('Wireless Mouse', 799.99, 50),
+('Mechanical Keyboard', 2499.00, 25),
+('Monitor', 12500.00, 15),
+('USB Cable', 299.50, 100);
+
+INSERT INTO products
+(product_name, price, stock_quantity)
+VALUES
+('Smartphone', 25000.67, 27),
+('Headphones', 2000, 50),
+('USB Hub', 899, 100);

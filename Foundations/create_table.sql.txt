@@ -1,0 +1,13 @@
+CREATE TABLE customers (
+    customer_id SERIAL PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    city VARCHAR(100)
+);
+
+CREATE TABLE products (
+    product_id SERIAL PRIMARY KEY,
+    product_name VARCHAR(150) NOT NULL,
+    price NUMERIC(10,2) NOT NULL,
+    stock_quantity INTEGER
+);
